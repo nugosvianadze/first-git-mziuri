@@ -1,2 +1,2 @@
-def test():
-    pass
+def sum_two_num(a, b):
+    return a + b
