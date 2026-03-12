@@ -1,0 +1,60 @@
+/* A basic, modern CSS reset */
+*, *::before, *::after {
+  box-sizing: border-box; /* Makes padding and borders easier to manage in layout calculations */
+}
+* {
+  margin: 0; /* Removes default margins from all elements */
+  padding: 0; /* Removes default padding from all elements */
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%; /* Ensures media is responsive by default */
+}
+input, button, textarea, select {
+  font: inherit; /* Makes form elements inherit font properties */
+}
+
+h1, p {
+  color: blue;
+  }
+    .h3-tag {
+      font-size: 50px;
+      font-family: Helvetica;
+    }
+    body {
+    font-family: Helvetica;
+    font-style:oblique;
+    }
+
+table, th, td {
+  border: 1px solid green;
+  width: 50%;
+}
+td {
+text-align: center;
+}
+h1 {
+padding-top: 20px;
+padding-left: 50%;
+margin-top: 50px;
+margin-left: 10px;
+}
+table {
+margin-left: 30%;
+}
+td {
+padding-top: 10px;
+}
+ul {
+gap: 50px;
+border: 2px solid black;
+border-radius;
+display: flex;
+justify-content: flex-end; /* Pushes children (logo and ul) to opposite ends */
+align-items: center; /* Vertically centers items */
+width: 100%; /* Ensure the header spans the full width */
+margin-left: auto
+}
+li {
+list-style-type: none;
+}
